@@ -1,0 +1,122 @@
+/* *{
+
+} */
+
+body{
+    font-family: 'Mulish', sans-serif;
+    margin: 0px;
+}
+
+a{
+    text-decoration: none;
+}
+
+button{
+    border: none;
+    background-color: #219988;
+    border-radius: 4px;
+    color: white;
+    text-align: center;
+    padding: 10px 15px;
+}
+
+.nav{
+    height: 2.0rem;
+    background: white;
+    border-bottom: 1px solid #eee;
+    position: relative;
+    padding: 1.5rem;
+}
+
+.login{
+    position: absolute;
+    right: 50px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 7px 20px;
+}
+
+.first{
+    display: flex;
+    flex-direction: row;
+}
+
+.second{
+    background-color: #e4f9f5;
+    padding: 70px;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 70px;
+}
+
+.card{
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,.2);
+    padding: 30px;
+    /* width: 50%; */
+}
+
+.statistics{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1% 5%;
+}
+
+.uploading{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: .5rem;
+    background-color: #e4f9f5;
+    padding: 6% 8%;
+}
+
+.box{
+    height: 150px;
+}
+
+.upload-info{
+    width: 80%;
+    /* padding: 0 20%; */
+    /* align-content: center; */
+    text-align: left;
+}
+
+footer{
+    list-style-type: none;
+    background: linear-gradient(24deg,#40514e,#40514e 50%,#219988);
+    color: white;
+}
+
+footer a{
+    color: #fff;
+}
+
+.footer-section{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 3% 4% 1% 4%;
+    
+}
+
+.footer-list{
+    list-style-type: none;
+}
+
+.social-links{
+    display: flex;
+    flex-direction: row;
+}
+
+.page-info{
+    text-align: center;
+}
+
+p.copyright{
+    margin: 0px;
+}
+
